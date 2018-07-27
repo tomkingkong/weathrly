@@ -1,0 +1,51 @@
+.Card {
+  color: #F4F6F6;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  border-top: 0.06rem solid #fff;
+  margin: 0 auto;
+  height: 5rem;
+  width: 5rem;
+}
+
+.Card p {
+  margin: 0;
+}
+
+.Card img {
+  margin: 0 10%;
+  height: 2rem;
+  width: 2rem;
+}
+
+.DayHours {
+  color: #F4F6F6;
+  display: flex;
+  align-items: center;
+  box-shadow: 0rem 0.22rem 0.2rem rgba(0, 0, 0, 0.5);
+  font-size: 0.7rem;
+  list-style-type: none;
+  padding: 0;
+  overflow: scroll;
+  margin: 0 auto;
+  min-width: 20rem;
+  max-width: 34.2rem;
+}
+
+.Hour {
+  border-right: 0.06rem solid #fff;
+  text-align: center;
+  min-width: 4rem;
+  max-width: 6rem;
+}
+
+.Hour p {
+  margin: 0;
+}
+
+.Hour img {
+  height: 1.2rem;
+  width: 1.2rem;
+}

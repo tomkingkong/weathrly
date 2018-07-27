@@ -1,0 +1,8 @@
+body {
+  background: rgba(10, 10, 10, 0.4) url(https://source.unsplash.com/1600x900/?scenic) no-repeat top/ cover; 
+  background-blend-mode: multiply;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}

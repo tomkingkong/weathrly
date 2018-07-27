@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Eczar:700|Roboto:300,400,700');
+
+.Search {
+  position: -webkit-sticky;
+  position: sticky;
+  text-align: center;
+  flex: 0.05;
+
+  margin: 1rem auto;
+  top: 0.4rem;
+  width: 100%;
+}
+
+::placeholder {
+  color: #F4F6F6;
+}
+
+.Search input {
+  background-color: rgba(100, 100, 100, 0.8);
+  border: 0.06rem solid #fff;
+  border-radius: 0.2rem;
+  text-align: left;
+  margin: 0 auto;
+  padding-left: 0.3rem;
+  width: 13rem;
+  height: 1.5rem;
+}
+
+.Search .submit-input {
+  background: url('./images/magnifier-white.png') no-repeat 50%/60%;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+  outline: none;
+  text-align: center;
+  margin-left: -2.06rem;
+  height: 1.63rem;
+  width: 2rem;
+}
+
+.submit-input:hover {
+  background: url('./images/magnifier.png') no-repeat 50%/60%;
+}
+
+input::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+.Search h3 {
+  color: rgba(240, 240, 130, 1);
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin: 0.4rem 0;
+}

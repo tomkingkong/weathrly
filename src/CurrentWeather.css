@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Eczar:700|Roboto:300,400,700');
+
+.CurrentWeather {
+  color: #F4F6F6;
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  flex: 0.5;
+  margin: 0 auto;
+  text-align: center;
+  min-width: 20rem;
+  width: 100%;
+  max-width: 40rem;
+}
+
+h3 {
+  font-family: 'Eczar', serif;
+  font-size: 1.6rem;
+  margin: 0;
+  width: 100%;
+}
+
+.currentData {
+  display: flex;
+  align-items: center;
+  padding: 0 0.6rem;
+}
+
+.CurrentWeather .left-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: right;
+  width: 33.33%;
+}
+
+.CurrentWeather .left-section p {
+  margin: 0;
+}
+
+.CurrentWeather .right-section {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 33.33%;
+}
+
+.right-section p {
+  margin: 0;
+}
+
+.currentTemp {
+  font-size: 3.5rem;
+  font-weight: 300;
+  margin: 0; 
+}
+
+.CurrentWeather .mid-section {
+  width: 33.33%;
+  padding: 0 0.5rem;
+}
+
+.CurrentWeather img {
+  height: 5rem;
+  width: 5rem;
+  margin: 0 auto;
+}
+
+h4 {
+  margin: 0;
+}
+
+.summary {
+  border-radius: 0.2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  text-align: justify; 
+  width: 12rem;
+  margin: 2rem auto 0 auto;
+}

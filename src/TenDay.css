@@ -1,0 +1,45 @@
+.TenDay {
+  border-bottom: 0.06rem solid #fff;
+  border-top: 0.06rem solid #fff;
+  margin: 0rem auto;
+  flex: 1;
+  position: relative;
+  overflow: scroll;
+  min-width: 20rem;
+  width: 100%;
+  max-width: 35rem;
+}
+
+.TenDay .Card {
+  display: flex;
+  border-right: 0.06rem solid #fff;
+  border-left: 0.06rem solid #fff;
+  cursor: pointer;
+  flex-flow: row wrap;
+  font-size: 1rem;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  height: 1.5em;
+  min-width: 19rem;
+  width: 100%;
+  max-width: 34.9rem;
+}
+
+.TenDay .Card:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.TenDay .Card h4 {
+  margin: 0 0 0 1rem;
+}
+
+.TenDay .Card p {
+  margin: 0 1rem 0 0;
+}
+
+.TenDay .Card img {
+  margin: 0 46%;
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+}

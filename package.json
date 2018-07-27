@@ -1,0 +1,38 @@
+{
+  "homepage": "http://tomkingkong.github.io/weatherly-tk-bf",
+  "name": "weathrly",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "engines": {
+    "npm": "5.7.1",
+    "node": "9.5.0"
+  },
+  "dependencies": {
+    "@material-ui/core": "^1.4.1",
+    "@tomkingkong/location-search": "git+https://github.com/tomkingkong/location-search.git",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "eslint": "react-scripts eslint",
+    "build-css": "node-sass-chokidar src/ -o src/",
+    "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "eslint": "^5.2.0",
+    "eslint-config-prettier": "^2.9.0",
+    "gh-pages": "^1.2.0",
+    "jest-fetch-mock": "^1.6.5",
+    "react-scripts": "1.1.4",
+    "react-test-renderer": "^16.4.1"
+  }
+}
