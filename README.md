@@ -1,11 +1,15 @@
-# Weathrly
+## Weathrly
 
-A responsive weather forecasting application in React pulling from the Weather Underground API.
+A responsive weather forecasting application in React pulling from the Weather Underground APIk
 
-## Synopsis
-Weathrly is a basic ReactJS app that will tell you the current weather and forecast of the user-submitted location.
+## Note: Breaking Changes 
+As of Nov2018 WeatherUndergroundAPI is no longer available, rendering the App non-functioning.
 
-## Tech Used
+### Collaborators
+[Tom King](https://github.com/tomkingkong)
+[Brandon Fiebiger](https://github.com/brandonfiebiger)
+
+### Tech Used
 ReactJS  
 Fetch API  
 Jest/Enzyme
@@ -16,12 +20,12 @@ Jest/Enzyme
 ### Main Screen
 <img src="https://raw.githubusercontent.com/tomkingkong/weatherly-tk-bf/master/my-app/public/images/weathrly-screenshot-main-large.png" width="900" />
 
-## Mobile View
+### Mobile View
 <img src="https://raw.githubusercontent.com/tomkingkong/weatherly-tk-bf/master/my-app/public/images/weatherly-screenshot-main-mobile.png" width="450" />
 
 ### 24Hour break down
 <img src="https://raw.githubusercontent.com/tomkingkong/weatherly-tk-bf/master/my-app/public/images/weathrly-screenshot-mobile-dropdown.png" width="450" />
 
 ### Wireframes: 
-<img src="https://raw.githubusercontent.com/tomkingkong/weatherly-tk-bf/master/my-app/public/images/weathrly_highlevel_view.png" width="400" /><img src="https://raw.githubusercontent.com/tomkingkong/weatherly-tk-bf/master/my-app/public/images/weathrly_landingpage_tolayout.png" width="400" />
+<img src="https://raw.githubusercontent.com/tomkingkong/weatherly-tk-bf/master/my-app/public/images/weathrly_landingpage_tolayout.png" width="400" />
  <img src="https://raw.githubusercontent.com/tomkingkong/weatherly-tk-bf/master/my-app/public/images/weathrly_container_layout.png" width="400" display="inline-block" />  
